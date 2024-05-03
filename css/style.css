@@ -66,12 +66,45 @@ body {   font-family: "Ubuntu Sans", sans-serif;
           }
 .book:hover {background-color: black;
              color: white;
-             cursor: pointer;}
-.details { max-width: 1000px;       
-           margin: auto;
-           border-top: solid;
-           border-color: green;
-           display: flex;
-           justify-content: space-between;
+             cursor: pointer;
+             }
+.details {   max-width: 1000px;       
+             margin: auto;
+             border-top: solid;
+             border-color: green;
+             display: flex;
+             justify-content: space-between;
          }
+.details-div h2 {margin-top: 20px;
+                 margin-bottom: 20px;
+                 font-size: 20px;
+              }
+.details-div p {margin-bottom: 30px;
+                font-size: 15px;
+              }
+.middle {    border-bottom: solid;
+             border-color: grey;
+         }
+.middle-logo {margin-top: 20px;}
+
+
+.St-form {width: 100px;
+          height: 30px;
+          border:solid;
+          color: gray;
+          display: flex;
+          flex-direction: column;
+          margin-top: 20px;
+          margin-bottom: 15px;
+}
+.submit {  margin-top: 20px;
+           font-size: 20px;
+           border-radius: 20px;
+
+}
+.submit:hover {background-color: grey;
+              color: #fff;
+                }
+
+
 
