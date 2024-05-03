@@ -8,9 +8,8 @@ header {position: sticky;
                justify-content: space-around;
                align-items: center; 
                height: 150px;  
-        
-              border-bottom: grey; 
-              border-style: solid;      
+               border-bottom: grey; 
+               border-style: solid;      
             }
 .nav-ul     {  display: flex; 
                column-gap: 30px;
@@ -26,8 +25,8 @@ body {   font-family: "Ubuntu Sans", sans-serif;
                     font-size: 22px;
                     text-decoration: underline;
                    }
-.main-photo {width: 100%;
-             height: 550px;}
+.main-photo {  width: 100%;             
+            }
 .main-text {letter-spacing: 2px;
             line-height: 2;
             font-size: 20px;
@@ -36,5 +35,43 @@ body {   font-family: "Ubuntu Sans", sans-serif;
             margin-top: 50px;
             max-width: 1000px;       
             margin: auto;
-       padding-top: 50px;} 
-.sec-first {}
+            padding-top: 50px;
+           } 
+.img-block{  max-width: 1000px;       
+             margin: auto;
+             padding-top: 50px;
+             align-items: center;
+             display: flex;
+             justify-content: space-around;    
+            }
+.img1 {  width: 170px;
+         border-radius: 50% ;      
+         }
+.img1:hover{  transform: scale(2);
+              transition-delay: 1s;
+              cursor: pointer;
+            }
+.book  {align-items: center;
+        text-align: center;
+        font-style: bold;
+        max-width: 200px;
+        height: 60px;
+        border: solid;
+        border-color: black;
+        border-radius: 10px;
+        margin: 100px auto 100px auto;
+        padding: 15px;
+    }
+.book h2 {font-size: large;
+          }
+.book:hover {background-color: black;
+             color: white;
+             cursor: pointer;}
+.details { max-width: 1000px;       
+           margin: auto;
+           border-top: solid;
+           border-color: green;
+           display: flex;
+           justify-content: space-between;
+         }
+
