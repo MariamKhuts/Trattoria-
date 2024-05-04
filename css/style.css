@@ -90,21 +90,22 @@ body {   font-family: "Ubuntu Sans", sans-serif;
 
 .St-form {width: 100px;
           height: 30px;
-          border:solid;
-          color: gray;
+          
           display: flex;
           flex-direction: column;
           margin-top: 20px;
           margin-bottom: 15px;
 }
+.mail {width: 200px;}
 .submit {  margin-top: 20px;
            font-size: 20px;
            border-radius: 20px;
-
 }
-.submit:hover {background-color: grey;
+.submit:hover {background-color: black;
               color: #fff;
                 }
-
-
-
+.icon-lo {width: 20px;}
+.form-lo {    display: flex;
+              flex-direction: column;}
+.search {width: 250px;
+         margin-top: 20px;}
