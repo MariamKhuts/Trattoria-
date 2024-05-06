@@ -1,0 +1,18 @@
+@media screen and (max-width: 320px) { 
+
+ .nav-list {display: none;}
+ .img-block {flex-direction: column;}
+ .img1:hover {transform: scale(1);}
+ .details   {flex-direction: column;}  
+ .foot-div  {flex-direction: column;}  
+ .details-div {margin: auto;}
+ .social {margin: auto;}
+ .map-img {width: fit-content}
+ .left-div  { margin: auto;}
+ .right-div {margin:30px auto auto auto;}
+ .img-block {row-gap: 30px;}
+}
+
+
+@media (max-width:768px) {  .burger {display: block;
+}
