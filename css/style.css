@@ -174,24 +174,66 @@ body {   font-family: "Ubuntu Sans", sans-serif;
           text-align: center;}
 .photo-gallery:hover {border: 2px solid darkgrey;}
 .photo-gallery img {width: 100%;
-                    height: auto;}  
+                    height: auto;} 
+                    
+                    
+
 .slider-wrapper .image-list { display:grid;
    grid-template-columns: repeat(7,1fr); 
-  gap: 18px;
-  font-size: 0;
-overflow-x:auto ;
-scrollbar-width: none; } 
-.image-item {width: 325px;
-           height: 400px;
-          object-fit: cover;}  
-.container {margin-top: 200px;
-max-width: 1200px;
- width: 95%;
+                 gap: 18px;
+                 font-size: 0;
+                 scrollbar-width: none;
+                 margin-bottom: 30px;
+} 
+.slider-wrapper .image-list::-webkit-scrollbar {
+  display: none;
 
-}   
+
+}
+
+
+.image-item {width: 325px;
+            height: 400px;
+            object-fit: cover;}  
+.container {margin-top: 100px;
+            max-width: 1200px;
+            width: 95%;
+
+            }   
 
 .fitness-body { display: flex;
-align-items: center;
-justify-content: center;
-min-height: 100vh;
-background-color: #F1F4FD;}
+                align-items: center;
+                justify-content: center;
+                min-height: 100vh;
+                background-color: #F1F4FD;}
+.slider-scrollbar {height: 24px;
+                       width:100%;
+                    display: flex;
+                  align-items: center;}
+.scrollbar-track { height: 2px;
+                  width: 100%;
+                  background-color: #ccc;
+                position: relative;
+                border-radius: 4px;}
+                  .scrollbar-thumb { height: 2px;
+                    width: 50%;
+                    height: 100%;
+                    position: absolute;
+                    border-radius: inherit;
+                    background-color: #000;
+                  cursor: grab;}
+
+                  .scrollbar-thumb::after {
+
+                    content:"" ;
+                    position: absolute;
+                    left: 0;
+                    right:0;
+                    top:-10px;
+                    bottom: -10px;
+                  }
+                  .scrollbar-thumb:active {
+                     cursor: grabbing;
+                     height:8px;
+                     top: -2px;
+                  }
