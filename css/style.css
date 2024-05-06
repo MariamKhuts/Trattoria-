@@ -1,10 +1,10 @@
 .logo        {max-width: 300px;
               height: 100px;
-             }
+ }
 header {     position: sticky;
-              top: 0;
-              z-index: 100;
-            }
+             top: 0;
+             z-index: 100;
+}
 .header-div {  display: flex;
                background-color:#fff;
                justify-content: space-around;
@@ -12,48 +12,48 @@ header {     position: sticky;
                height: 150px;  
                border-bottom: grey; 
                border-style: solid;      
-            }
+}
 .nav-ul     {  display: flex; 
                column-gap: 30px;
                color: grey;
                font-size: large;
-               
-              }
+   
+  }
 .nav-list   {  display: flex;    
-            }
+}
 body {   font-family: "Ubuntu Sans", sans-serif; 
-     }
+}
 .nav-ul li :hover { font-weight: 800;
                     font-size: 22px;
                     transition-delay: 1s ;
                     text-decoration: underline;
-                   }
+       }
 .main-photo {  width: 100%;             
-            }
+              }
 .main-text {letter-spacing: 2px;
             line-height: 2;
             font-size: 20px;
-            }
+}
 .text-div  {text-align: center;
             margin-top: 50px;
             max-width: 1000px;       
             margin: auto;
             padding-top: 50px;
-           } 
+} 
 .img-block{  max-width: 1000px;       
              margin: auto;
              padding-top: 50px;
              align-items: center;
              display: flex;
              justify-content: space-around;    
-            }
+}
 .img1 {  width: 170px;
          border-radius: 50% ;      
-         }
+}
 .img1:hover{  transform: scale(2);
               transition-delay: 1s;
               cursor: pointer;
-            }
+}
 .book  {align-items: center;
         text-align: center;
         font-style: bold;
@@ -64,45 +64,50 @@ body {   font-family: "Ubuntu Sans", sans-serif;
         border-radius: 10px;
         margin: 100px auto 100px auto;
         padding: 15px;
-    }
+}
 .book h2 {  font-size: large;
-          }
+}
 .book:hover {background-color: black;
              color: white;
              cursor: pointer;
-             }
+ }
 .details {   max-width: 1000px;       
              margin: auto;
              border-top: solid;
              border-color: green;
              display: flex;
              justify-content: space-between;
-         }
+}
 .details-div h2 {margin-top: 20px;
                  margin-bottom: 20px;
                  font-size: 20px;
-              }
+  }
 .details-div p {margin-bottom: 30px;
                 font-size: 15px;
-              }
+  }
 .middle {    border-bottom: solid;
              border-color: grey;
              display: flex;
              flex-direction: column;
-         }
+}
 .social {margin: auto 100px;
-        }
+}
 .fa-instagram {margin-left: 20px;
-               margin-right: 20px;}
+               margin-right: 20px;
+              }
 .fa-brands {font-size: 30px;
-             color: grey;}
-.middle-logo {margin-top: 20px;}
+            color: grey;
+          }
+.middle-logo {margin-top: 20px;
+}
 .fa-facebook:hover { transform: scale(2);
-                     color: blue;}
+                    color: blue;
+                  }
 .fa-instagram:hover { transform: scale(2);
-                      color: green;}
+                      color: green;
+        }
 .fa-youtube:hover {transform: scale(2);
-                  color: red;}
+                   color: red;}
 .St-form {    width: 100px;
               height: 30px;          
               display: flex;
@@ -117,44 +122,45 @@ body {   font-family: "Ubuntu Sans", sans-serif;
 }
 .submit:hover {background-color: black;
                color: #fff;
-                }
+    }
 .icon-lo {    width: 20px;
-          }
+}
 .form-lo {    display: flex;
               flex-direction: column;
-          }
+}
 .search {     width: 250px;
               margin-top: 20px;
-        }
+}
 .foot-div {   max-width: 1000px;
               margin:30px auto;
               display: flex;        
-          }
+}
 .left-div {   display: block;
               flex-direction: column;
               margin-right: 150px;
-          }
+}
 .location-div {border-bottom: solid;
                margin-top: 50px;
-               }
+   }
 .title-loc {   margin-top: 50px;
                margin-bottom: 50px;
-           }
+}
 .address-div { border-bottom: solid;
-           }
+}
 .address-div h2 { font-size: 20px;
                   margin-top: 20px;
                   margin-bottom: 20px;
-                }
+    }
 .address-div h3 { font-size: 15px;
                   margin-bottom: 20px;
-                }
-                .burger { position: absolute;
-                  top: 40px;
-                  right: 15px;
-                  font-size: 40px; 
-                  color:black;
-                  display: none;
-                 }
+    }
+    .burger { position: absolute;
+              top: 40px;
+              right: 15px;
+              font-size: 40px; 
+              color:black;
+              display: none;
+     }
 .main-title {font-size: 40px;
-             margin-bottom: 30px;}
+             margin-bottom: 30px;
+            }
